@@ -1,0 +1,464 @@
+/* Reset Css */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html{
+ scroll-behavior: smooth;
+}
+
+/* the Header id is top */
+#top {
+    font-family: 'Pacifico', cursive;
+    
+}
+
+
+
+/* Inside The Header Div   */
+#heading {
+    /* border: 5px solid yellow; */
+    font-family: 'Pacifico', cursive; 
+    display: flex;
+}
+
+
+
+#img1 {
+    /* border: 2px solid red; */
+    width: 150px;
+    height: 100px;
+    margin: 13px 50px;
+    display: block;
+    
+}
+
+/* Inside The Header Making The 
+Heading Unique By Adding multiple Div in top */
+#only-one{
+    /* border: 2px solid red;  */
+    display: flex;
+    width: auto;
+}
+
+.only-two{
+    /* border: 2px solid red;  */
+    align-self: center; 
+    font-size: 60px;
+}
+
+
+#one {
+    /* border: 2px solid red;  */
+    color: #db9b48;
+}
+
+
+#two {
+    /* border: 2px solid red;  */
+    margin: 0px 50px;
+    color: #39b926;
+}
+
+
+#three {
+    /* border: 2px solid red;  */
+    color: #862121;
+}
+
+/* till here */
+
+
+/* Making The Navbar */
+#navbar {
+    /* border: 2px solid red; */
+    /* background-color: black; */
+    /* overflow: hidden; */
+    /* top: 0; */
+    height: 65px;
+    position: sticky;
+    display: flex;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.4rem;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+/* Inside The Navbar */
+#navbar ul {
+    position: sticky;
+    display: flex;
+    margin: 5px 0px;
+}
+
+
+#navbar ul li {
+    list-style: none;
+}
+
+
+#navbar ul li a {
+    position: sticky;
+    color: black;
+    border-radius: 15px;
+    display: block;
+    padding: 5px 15px;
+    text-decoration: none;
+    margin: 8px 65px;
+    height: auto;
+}
+
+
+#navbar ul li a:hover {
+    border: 1px solid white;
+    background-color: black;
+    color: aqua;
+}
+
+
+
+/* Middle Section Of Website Using Section tag giving
+id mid  */
+#mid {
+    /* border: 2px solid red; */
+    position: relative;
+    padding: 0px 0px;
+    margin: 0px 0px;
+    height: 300px;
+    
+}
+
+#mid::before {
+    content: "";
+    background-color: black;
+    position: absolute;
+    width: 100%;
+    height: 300px;
+    background-image: url("../Code/BG/bg1.jpg");
+    background-repeat: no-repeat;
+    opacity: 0.8;
+    z-index: -1;
+}
+
+
+/* Inside the section Another div is given 
+the Id is para  */
+#para {
+    /* border: 2px solid maroon; */
+    height: 270px;
+    font-family: 'Nova Square', sans-serif;
+}
+
+
+/* head is the id of h1 tag */
+#head {
+    /* border: 1px solid red; */
+    width: 320px;
+    margin: auto;
+    text-align: center;
+    font-size: 55px;
+    color: #cad4af;
+}
+
+
+/* It is the another div inside the section 
+and then also inside the div of id para */
+#same {
+    /* border: 2px solid red; */
+    width: 270px;
+    align-self: center;
+    display: flex;
+    margin: auto;
+
+}
+
+
+/* it is the class of three div same name  */
+.ott {
+    margin: 0px 5px;
+}
+
+
+/* inside the div of id same having id o */
+#o h1 {
+    /* border: 1px solid black;  */
+    font-size: 30px;
+    color: #db9b48;
+}
+
+
+/* inside the div of id same having id tw */
+#tw h1 {
+    /* border: 1px solid white;  */
+    font-size: 30px;
+    color: #39b926;
+}
+
+
+/* inside the div of id same having id th*/
+#th h1 {
+    /* border: 1px solid yellow;  */
+    font-size: 30px;
+    color: #862121;
+}
+
+
+/* the paragraph tag inside the section and
+ also inside the div with id para */
+
+
+ #my{
+    /* border: 2px solid red; */
+    padding: 17px 30px;
+    width: auto;
+    margin-top: 20px;
+ }
+#para p {
+    font-size: 1rem;
+    text-align: center;
+}
+
+#features {
+    /* border: 2px solid violet; */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+}
+
+
+
+
+#containerization {
+    
+    font-family: 'Montserrat Alternates', sans-serif;
+    /* border: 2px solid greenyellow; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* height: 535px; */
+}
+
+.container {
+    border: 3px solid black;
+    border-radius: 42px;
+    height: 435px;  
+    width: 417px;
+    margin: 50px 17px;
+    text-align: center;
+    padding: 10px 25px;
+    font-size: 15px;
+}
+
+.only-p{
+    margin:  auto;
+    width: auto;
+
+}
+
+#left{
+    background-color: #db9b48;
+}
+
+#left img {
+    margin: 0px auto;
+   width: 185px;
+   display: block;
+}
+
+
+
+#middle{
+    background-color: #dc5151;
+}
+
+
+
+#middle img {
+    margin: 5px auto;
+    width: 260px;
+    display: block;
+    
+}
+
+
+
+#right{
+    background-color: #79f866;
+}
+
+
+
+#right img {
+    margin: 5px auto;
+    width: 210px;
+    display: block;
+}
+
+
+
+
+
+
+
+
+#para2{
+    /* border: 2px solid greenyellow; */
+    font-family: 'Rubik Scribble';
+    margin: 10px auto;
+    width: 280px;
+    font-size: 40px;
+}
+
+#Clients {
+    /* border: 2px solid violet; */
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 10px;
+    width: 95%;
+    margin: auto;
+}
+
+.moving{
+    margin: 30px auto;
+   
+}
+
+
+
+#clients1{
+    /* border: 2px solid red; */
+    width: 400px;
+    display: block;
+}
+
+#clients2 {
+    /* border: 2px solid red; */
+    width: 220px;
+    display: block;
+}
+
+#clients3 {
+    /* border: 2px solid red; */
+    width: 250px;
+    display: block;
+}
+
+#clients4 {
+    /* border: 2px solid red; */
+    width:290px;
+    display: block;
+}
+
+#clients5 {
+    /* border: 2px solid red; */
+    width:290px;
+    display: block;
+}
+
+
+
+
+
+#contact{
+    background-color: #28282B;
+    color: aqua;
+    align-items: center;
+    padding: 15px;
+    /* display: flex; */
+    font-family: 'Exo 2', sans-serif;
+    
+    
+}
+
+#contacts{
+    border: 2px solid red;
+    border-radius: 70px;
+    margin: 15px auto;
+    height: 600px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    /* align-self: center; */
+    justify-content: center;
+   
+}
+
+#contacts h1{
+    color: blueviolet;
+    align-self: center;
+    margin: 40px 0px;
+    font-size: 50px;
+
+}
+
+
+#contact-box{
+    align-self: center;
+    /* border: 2px solid red; */
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 10px;
+    margin: -50px 0px;
+    width:80%;
+    /* height: 200px; */
+    
+}
+#contact-box input{
+    color: aqua;
+    height:30px;
+    background-color: #28282B;
+    border-radius: 1px;
+    border: 0px solid #28282B;
+    border-bottom: 2px solid cyan;
+    width: 100%;
+}
+
+
+.form-group{
+    margin: 65px 20px;
+}
+
+.form-group label{
+    color: aliceblue;
+    
+}
+
+#submit{
+    align-self: center;
+    width: 21%;
+    height: 38px;
+    background-color: #28282B;
+    border-radius: 15px;
+    border: 2px solid red;
+    color: whitesmoke;
+    margin: 20px 0px;   
+}
+
+#submit:hover{
+    color: red;
+    width:24%;
+    height: 43px;
+    background-color: whitesmoke;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
